@@ -30,7 +30,7 @@ googleAnalytics = ""
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo = ''
+  BookRepo = 'https://github.com/Triple-Z'
 
   # Enable 'Edit this page' links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
@@ -75,17 +75,19 @@ googleAnalytics = ""
   url = "#"
   weight = 100
 
+# change the name of "example-site"
+[[menu.after]]
+  name = "TripleZ's Home"
+  url = "https://triplez.cn?utm_source=example-site.book.triplez.cn"
+  weight = 100
+
 [[menu.after]]
   name = "TripleZ's Blog"
-  url = "https://blog.triplez.cn/?utm_source=go-notes.book.triplez.cn"
+  url = "https://blog.triplez.cn?utm_source=example-site.book.triplez.cn"
   weight = 10
 
 [[menu.after]]
-  name = "Whilekim's Blog"
-  url = "https://www.whilekim.com/?utm_source=go-notes.book.triplez.cn"
-  weight = 20
-
-[[menu.after]]
   name = "← Back to Books"
-  url = "https://book.triplez.cn/?utm_source=go-notes.book.triplez.cn"
+  url = "https://book.triplez.cn/?utm_source=example-site.book.triplez.cn"
   weight = 100000
+
