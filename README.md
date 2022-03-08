@@ -2,7 +2,7 @@
 
 A hugo-book template for Wiki/book/notes websites.
 
-This is a fork of https://github.com/alex-shpak/hugo-book .
+The hugo book theme: https://github.com/alex-shpak/hugo-book .
 
 ## Quick Start
 

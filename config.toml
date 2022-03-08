@@ -1,5 +1,5 @@
 baseURL = ""
-languageCode = "en-us"
+languageCode = "zh-Hans"
 title = "Hugo book Title, change here"
 theme = "book"
 
@@ -30,7 +30,7 @@ googleAnalytics = ""
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo = 'https://github.com/Triple-Z/mit-6.824-notes'
+  BookRepo = ''
 
   # Enable 'Edit this page' links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
@@ -76,6 +76,16 @@ googleAnalytics = ""
   weight = 100
 
 [[menu.after]]
-  name = "Link after menu"
-  url = "#"
+  name = "TripleZ's Blog"
+  url = "https://blog.triplez.cn/?utm_source=go-notes.book.triplez.cn"
   weight = 10
+
+[[menu.after]]
+  name = "Whilekim's Blog"
+  url = "https://www.whilekim.com/?utm_source=go-notes.book.triplez.cn"
+  weight = 20
+
+[[menu.after]]
+  name = "← Back to Books"
+  url = "https://book.triplez.cn/?utm_source=go-notes.book.triplez.cn"
+  weight = 100000
