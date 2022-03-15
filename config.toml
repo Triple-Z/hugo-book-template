@@ -3,7 +3,7 @@ languageCode = "zh-Hans"
 title = "Hugo book Title, change here"
 theme = "book"
 
-# enableGitInfo = true
+enableGitInfo = true
 googleAnalytics = ""
 
 [params]
@@ -35,7 +35,7 @@ googleAnalytics = ""
   # Enable 'Edit this page' links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Path must point to the site directory.
-  # BookEditPath = 'edit/master/exampleSite'
+  # BookEditPath = 'edit/master'
 
   # (Optional, default January 2, 2006) Configure the date format used on the pages
   # - In git information
